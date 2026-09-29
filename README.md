@@ -92,7 +92,7 @@ winget install rtk-ai.rtk
 ### Quick Install (Linux/macOS)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/rtk-ai/rtk/refs/heads/master/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/Green-Dot-Corporation/FORK-RTK-AI/refs/heads/develop/install.sh | sh
 ```
 
 > Installs to `~/.local/bin`. Add to PATH if needed:
@@ -103,7 +103,7 @@ curl -fsSL https://raw.githubusercontent.com/rtk-ai/rtk/refs/heads/master/instal
 ### Cargo
 
 ```bash
-cargo install --git https://github.com/rtk-ai/rtk
+cargo install --git https://raw.githubusercontent.com/Green-Dot-Corporation/FORK-RTK-AI
 ```
 
 ### Pre-built Binaries
@@ -435,7 +435,7 @@ rtk init -g
 
 ```bash
 # Inside WSL
-curl -fsSL https://raw.githubusercontent.com/rtk-ai/rtk/refs/heads/master/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/Green-Dot-Corporation/FORK-RTK-AI/refs/heads/develop/install.sh | sh
 rtk init -g
 ```
 
